@@ -1,0 +1,10 @@
+.content{
+float:left;
+width:60%;
+background-color:green;
+}
+.sidebar{
+float:right;
+width:40%;
+background-color:red;
+}

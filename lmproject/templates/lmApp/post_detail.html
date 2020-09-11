@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{%extends 'lmApp/base.html'%}
+{%block title%}DURGAS BLOG{%endblock%}
+{%block content%}
+    <h1>{{post.title}}</h1>
+    <p id="date">published on {{post.publish}} by {{post.author | title}}</p>
+    {{post.body | linebreaks}}
+    <div class="container" align="center">
+    <a href="/{{post.id}}/share" class="btn btn-primary btn-lg">Do you want to share post</a>
+    </div>
+{%endblock%}
+

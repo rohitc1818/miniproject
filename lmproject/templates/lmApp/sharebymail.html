@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+{%extends 'lmApp/base.html'%}
+   {%block title%}share post by Email{%endblock%}
+    {%block content%}
+     {%if sent%}
+      <h1>Email successfully sent!!!</h1>
+      <h2>"{{post.title}}" was sent by email</h2>
+      {%else%}
+        <h1>share {{post.title}} "by Email!!!"</h1>
+         <form method="post">
+             {{form.as_p}}
+             {%csrf_token%}<br>
+             <div class="cb" align="center">
+             <input type="submit" name="" value="send mail" class="btn btn-primary btn-lg">
+                 </div>
+         </form>
+      {%endif%}
+     {%endblock%}
