@@ -30,3 +30,4 @@ def mail_send_view(request,id):
     return render(request,'lmApp/sharebymail.html',{'post':post,'form':form,'sent':sent})
 
 print('Hey..are you there..')
+print('606f888006cbfa79a8a8b318c5cf9471714667b5')
