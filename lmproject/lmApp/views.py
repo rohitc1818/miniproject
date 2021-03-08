@@ -28,3 +28,5 @@ def mail_send_view(request,id):
     else:
         form = Emailsendform()
     return render(request,'lmApp/sharebymail.html',{'post':post,'form':form,'sent':sent})
+
+print('Hey..are you there..')
