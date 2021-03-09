@@ -5,7 +5,6 @@ if l1 == 4:
     print('dont do this')
 else:
 <<<<<<< HEAD
-<<<<<<< HEAD
     if l1 == 1:
         print('This is 1')
     print('This is the',l1)
@@ -16,9 +15,3 @@ else:
     else:
         print('This is the',l1)
 >>>>>>> dummy
-=======
-    thirsty = input('are you thirsty?')
-    if thirsty == 'yes':
-        print('Drink oil')
-    print('This is the',l1)
->>>>>>> parent of 22529c7... dummy msg
