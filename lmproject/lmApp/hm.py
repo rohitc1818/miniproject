@@ -4,5 +4,4 @@ if l1 == 4:
     print('sigma')
     print('dont do this')
 else:
-    print('hello')
     print('This is the',l1)
